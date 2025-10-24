@@ -1,7 +1,7 @@
 <?php
-$servername = "bhf6s5kuuvyq21brrqgx-mysql.services.clever-cloud.com";
+$servername = "bhfes5kuuvyq21brrggx-mysql.services.clever-cloud.com";
 $dbname = "bhf6s5kuuvyq21brrqgx";
-$username = "uohiphvlz2w7e1cj";
+$username = "uohiphv1z2w7elej";
 $password = "cwjVQ1tJNeU8EdzN8ZcMI"; // 🔥 PON TU PASSWORD REAL
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
