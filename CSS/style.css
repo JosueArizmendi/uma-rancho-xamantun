@@ -1,0 +1,42 @@
+/* Celdas con borde circular */
+.form-control-sm {
+    width: 250px;
+    height: 35px;
+    border-radius: 50px;
+  }
+
+  /* Centrado de los formularios */
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .form-container form {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  /* Estilo de los botones de la cabecera */
+  .sign button {
+    padding: 8px 16px;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  /* Títulos centrados */
+  .form-container h4 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  /* Imagen de usuario */
+  .user-image {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+   

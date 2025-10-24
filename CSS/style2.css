@@ -1,0 +1,38 @@
+.carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: black;  /* Cambiar el color de fondo de las flechas */
+  }
+
+  /* Personalización de las flechas para que sean redondas */
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 50px;  /* Ancho de las flechas */
+    height: 50px;  /* Alto de las flechas */
+    border-radius: 50%;  /* Borde redondeado */
+    background-color: black;  /* Color de fondo */
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: black;  /* Color de las flechas (blanco) */
+    border-radius: 50%;  /* Borde redondeado */
+  }
+
+  /* Posicionamiento absoluto de las flechas */
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;  /* Posicionarlas sobre el carrusel */
+    top: 50%;  /* Centrarlas verticalmente */
+    transform: translateY(-50%);  /* Ajustar para que estén exactamente al centro */
+    z-index: 10;  /* Asegurarse de que las flechas estén al frente */
+  }
+
+  /* Ajustes para la flecha anterior (a la izquierda) */
+  .carousel-control-prev {
+    left: 10px;  /* Colocarla a la izquierda */
+  }
+
+  /* Ajustes para la flecha siguiente (a la derecha) */
+  .carousel-control-next {
+    right: 10px;  /* Colocarla a la derecha */
+  }
